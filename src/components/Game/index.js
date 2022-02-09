@@ -1,6 +1,6 @@
-import Board from "./Board";
-import WinnerSection from "./WinnerSection";
-import ResetButton from "./ResetButton";
+import Board from "../Board";
+import WinnerSection from "../Winner";
+import ResetButton from "../ResetButton";
 
 function Game() {
   return (
