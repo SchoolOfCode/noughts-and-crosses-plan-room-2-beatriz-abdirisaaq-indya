@@ -5,7 +5,7 @@ import ResetButton from "./ResetButton";
 function Game() {
   return (
     <div>
-      <Board />
+      <Board onClick={()=>{}} />
       <WinnerSection />
       <ResetButton />
     </div>

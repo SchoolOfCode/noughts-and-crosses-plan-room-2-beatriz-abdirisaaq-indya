@@ -9,8 +9,10 @@ const style = {
   outline: "none",
 };
 
-function Square() {
-  return <div style={style}></div>;
+function Square({value, onClick}) {
+  return (
+    <button style={style} onClick={onClick}>{value}</button>
+  );
 }
 
 export default Square;
